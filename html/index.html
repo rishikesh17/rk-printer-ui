@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>QBCore Printer</title>
+        <link rel="stylesheet" href="./style.css">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="document-container">
+                <img class="document-image" src="">
+            </div>
+
+            <div class="printer-container">
+                <div class="printer-header">
+                    <img class="header-icon" src="./PrinterLogo.png">
+                </div>
+                <label for= "header-label" class="header-label" style="font-family: 'Times New Roman', Times, serif;font-size: 55px;">Printer your Document here</label>
+
+                <input type="text" class="printer-input" placeholder="URL of the document (PNG)" required style="font-family: 'Times New Roman', Times, serif;font: size 30px; color: black; font-style: italic;">
+
+                <div class="printer-accept" >
+                <b style="font-family: 'Times New Roman', Times, serif;font-size:30px;">Print</b>
+                </div>
+                <div class="printer-decline">
+                    <b style="font-family: 'Times New Roman', Times, serif;font-size:30px;">Cancel</b>
+                </div>
+            </div>
+        </div>
+        <script src="./app.js"></script>
+    </body>
+</html>
